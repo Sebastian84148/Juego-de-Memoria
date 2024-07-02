@@ -1,0 +1,66 @@
+body {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  font-family: sans-serif;
+  color: white;
+}
+body main {
+  width: 730px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+}
+body main .section1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0 10px 10px 10px;
+  border-radius: 8px;
+}
+body main .section1 h1 {
+  text-align: center;
+}
+body main .section1 button {
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+body main .section1 button:hover {
+  cursor: pointer;
+}
+body main #section2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0 8px 8px 0;
+  width: 250px;
+  padding: 10px;
+}
+body main #section2 .estadisticas {
+  border: 1px solid white;
+  height: 105px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 8px 15px;
+}
+body main #section2 #movimientos {
+  margin-bottom: 20px;
+}
+body main #mezclar {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px 10px;
+  border: 0px;
+  border-radius: 0 8px 8px 0;
+}
+body main #mezclar a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+body footer {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
